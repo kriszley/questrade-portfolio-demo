@@ -1,0 +1,88 @@
+{
+  "generatedAt": "2026-01-15T22:00:00Z",
+  "source": "synthetic-demo",
+  "environment": "demo",
+  "accounts": [
+    {
+      "account": {"accountRef": "demo-a", "type": "TFSA"},
+      "balances": {
+        "perCurrencyBalances": [
+          {"currency": "CAD", "cash": 800.0, "buyingPower": 800.0, "totalEquity": 5600.0}
+        ]
+      },
+      "positions": {
+        "positions": [
+          {
+            "symbol": "VOO",
+            "openQuantity": 8,
+            "averageEntryPrice": 500.0,
+            "totalCost": 4000.0,
+            "currentMarketValue": 4240.0,
+            "currentPrice": 530.0,
+            "openPnl": 240.0,
+            "closedPnl": 0.0,
+            "dayPnl": 12.0
+          },
+          {
+            "symbol": "QQQ",
+            "openQuantity": 4,
+            "averageEntryPrice": 500.0,
+            "totalCost": 2000.0,
+            "currentMarketValue": 2080.0,
+            "currentPrice": 520.0,
+            "openPnl": 80.0,
+            "closedPnl": 0.0,
+            "dayPnl": -8.0
+          }
+        ]
+      },
+      "orders": {"orders": []}
+    },
+    {
+      "account": {"accountRef": "demo-b", "type": "RRSP"},
+      "balances": {
+        "perCurrencyBalances": [
+          {"currency": "USD", "cash": 250.0, "buyingPower": 250.0, "totalEquity": 2350.0}
+        ]
+      },
+      "positions": {
+        "positions": [
+          {
+            "symbol": "VOO",
+            "openQuantity": 2,
+            "averageEntryPrice": 500.0,
+            "totalCost": 1000.0,
+            "currentMarketValue": 1060.0,
+            "currentPrice": 530.0,
+            "openPnl": 60.0,
+            "closedPnl": 0.0,
+            "dayPnl": 3.0
+          },
+          {
+            "symbol": "XLU",
+            "openQuantity": 10,
+            "averageEntryPrice": 70.0,
+            "totalCost": 700.0,
+            "currentMarketValue": 720.0,
+            "currentPrice": 72.0,
+            "openPnl": 20.0,
+            "closedPnl": 0.0,
+            "dayPnl": 1.0
+          },
+          {
+            "symbol": "DXYZ",
+            "openQuantity": 5,
+            "averageEntryPrice": 30.0,
+            "totalCost": 150.0,
+            "currentMarketValue": 200.0,
+            "currentPrice": 40.0,
+            "openPnl": 50.0,
+            "closedPnl": 0.0,
+            "dayPnl": 5.0
+          }
+        ]
+      },
+      "orders": {"orders": []}
+    }
+  ]
+}

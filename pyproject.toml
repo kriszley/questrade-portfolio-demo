@@ -1,0 +1,9 @@
+[project]
+name = "questrade-portfolio-demo"
+version = "0.1.0"
+description = "Sanitized read-only brokerage portfolio engineering demo"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.ruff]
+line-length = 100

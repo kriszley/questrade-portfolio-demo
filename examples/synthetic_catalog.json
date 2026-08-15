@@ -1,0 +1,9 @@
+{
+  "note": "Synthetic demo roles only; not personalized investment guidance.",
+  "securities": {
+    "VOO": {"stream": "core", "role": "broad-market demo core"},
+    "QQQ": {"stream": "satellite", "role": "growth-tilt demo"},
+    "XLU": {"stream": "core", "role": "defensive-sector demo"},
+    "DXYZ": {"stream": "event", "role": "special-situation demo"}
+  }
+}
